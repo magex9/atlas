@@ -1,0 +1,4 @@
+<https://magex9.github.io/atlas/topics/notification/type/success/>	<https://magex9.github.io/atlas/properties/common/topic/name/>	'Success'@en	.
+<https://magex9.github.io/atlas/topics/notification/type/error/>      <https://magex9.github.io/atlas/properties/common/topic/name/>  'Error'@en    .
+<https://magex9.github.io/atlas/topics/notification/type/warn/>      <https://magex9.github.io/atlas/properties/common/topic/name/>  'Warning'@en    .
+<https://magex9.github.io/atlas/topics/notification/type/info/>      <https://magex9.github.io/atlas/properties/common/topic/name/>  'Notification'@en    .

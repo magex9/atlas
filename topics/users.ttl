@@ -1,0 +1,4 @@
+<https://magex9.github.io/atlas/topics/system/users/scott@magex.ca/>	<https://magex9.github.io/atlas/properties/common/topic/name/>	'Scott'@en	.
+<https://magex9.github.io/atlas/topics/system/users/scott@magex.ca/>    <https://magex9.github.io/atlas/properties/person/name/first/>	'Scott'	.
+<https://magex9.github.io/atlas/topics/system/users/scott@magex.ca/>    <https://magex9.github.io/atlas/properties/person/language/spoken/>	<http://magex9.github.io/atlas/topics/person/language/english/>	.
+
