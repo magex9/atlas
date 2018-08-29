@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="shortcut icon" href="docs-assets/ico/favicon.png">
+		<title>Atlas Viewer</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="atlas.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Atlas</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<form class="navbar-form navbar-right" role="form">
+						<a href="#" type="submit" class="btn btn-info">Scott Finlay</a>
+						<a href="#" type="submit" class="btn btn-info">Logout</a>
+						<a href="#" type="submit" class="btn btn-info">Francias</a>
+					</form>
+				</div><!--/.navbar-collapse -->
+			</div>
+		</div>
+
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Atlas</h1>
+				<p>Atlas is an knowledge base of all the development products that we use.  This large collection of information represents all of the applications and code that we maintain.</p>
+				
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 details">
+					<h2>Modules</h2>
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4>Atlas Service</h4>
+							<p>The atlas service is used to manage the business functionality with the database.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4>Atlas Reporting</h4>
+							<p>The atlas reports combine rdf data to gather metrics from the system.	</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4>Atlas UI</h4>
+							<p>The atlas UI is a swing application for viewing the data.	</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 details">
+					<h2>Active Branches</h2>
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4>SMR 2015 v2.0.2</h4>
+							<ul>
+								<li>2.0.1</li>
+								<li>2.0.0</li>
+							</ul>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4>FMR 2015 v2.1.0</h4>
+							<ul>
+								<li>2.0.1</li>
+								<li>2.1.1-RC7</li>
+								<li>2.1.1-RC9</li>
+							</ul>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 details">
+					<h2>Artifacts</h2>
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4>Atlas Service</h4>
+							<ul>
+								<li>atlas-service-2.3.4-SNAPSHOT.jar</li>
+								<li>atlas-service-2.3.4-SNAPSHOT0-tests.jar</li>
+								<li>atlas-service-2.3.4-SNAPSHOT0-start.bat</li>
+							</ul>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4>Atlas UI</h4>
+							<ul>
+								<li>atlas-ui-2.3.4-SNAPSHOT.ear</li>
+							</ul>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Developers</h2>
+					<div class="list-group">
+						<a href="#" class="list-group-item">Scott</a>
+						<a href="#" class="list-group-item">Ben</a>
+						<a href="#" class="list-group-item">Juehee</a>
+					</div>
+				</div>
+				<div class="col-md-4 details">
+					<h2>Requires</h2> 
+					<div class="list-group">
+						<h4 class="list-group-item">Hibernate</h4>
+						<a href="#" class="list-group-item">org.hibernate.Query</a>
+						<a href="#" class="list-group-item">org.hibernate.Repository</a>
+						<a href="#" class="list-group-item">org.hibernate.Search</a>
+						<h4 class="list-group-item">Logging</h4>
+						<a href="#" class="list-group-item">org.log4j.Logger</a>
+					</div>
+				</div>
+				<div class="col-md-4 details">
+					<h2>Used By</h2>
+					<div class="list-group">
+						<h4 class="list-group-item">MSB</h4>
+						<a href="#" class="list-group-item">org.artisan.FormContext</a>
+						<a href="#" class="list-group-item">org.artisan.SearchFilter</a>
+						<a href="#" class="list-group-item">org.artisan.Permissions</a>
+						<h4 class="list-group-item">F2R</h4>
+						<a href="#" class="list-group-item">org.artisan.FormContext</a>
+						<a href="#" class="list-group-item">org.artisan.SearchFilter</a>
+						<a href="#" class="list-group-item">org.artisan.Permissions]</a>
+					</div>
+				</div>
+			</div>
+
+			<hr class="clear">
+
+			<form role="form">
+				<div class="form-group col-md-4">
+					<label for="name">Name</label>
+					<input type="text" class="form-control" id="name" placeholder="Your name" size="20" />
+				</div>
+				<div class="form-group col-md-8">
+					<label for="email">Email address</label>
+					<div class="input-group">
+						<span class="input-group-addon">@</span>
+						<input type="email" class="form-control" id="email" placeholder="Enter email" size="40">
+					</div>
+				</div>
+				<div class="form-group col-md-12">
+					<label for="comments">Comments</label>
+					<textarea class="form-control" id="comments" placeholder="comments" rows="8"></textarea>
+				</div>
+			</form>
+
+			<footer>
+				<p>&copy; Atlas 2013</p>
+			</footer>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
